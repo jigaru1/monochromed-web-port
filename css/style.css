@@ -253,7 +253,24 @@
 				margin-top: 1em;
 				padding: 0.50em 0em;
 			}
+		.image
+		{
+			display: inline-block;
+		}
+		
+			.image img
+			{
+				display: block;
+				width: 100%;
+				border-radius: 6px;
+			}
 
+			.image.featured
+			{
+				display: block;
+				width: 100%;
+				margin: 0 0 2em 0;
+			}
 /*********************************************************************************/
 /* Header                                                                        */
 /*********************************************************************************/
