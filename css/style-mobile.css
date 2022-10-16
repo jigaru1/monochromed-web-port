@@ -256,7 +256,19 @@
 /*********************************************************************************/
 /* Featured                                                                      */
 /*********************************************************************************/
-	
+		#titleBar
+	{
+		background: none;
+	}
+
+		#titleBar .title
+		{
+			display: none;
+			color: #fff;
+			text-align: center;
+			line-height: 44px;
+		}
+
 	#featured
 	{
 		padding: 4em 0em 4em 0em;
