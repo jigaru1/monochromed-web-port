@@ -304,7 +304,17 @@
 		overflow: hidden;
 		border-top: 1px solid #dbdbdb;
 	}
+		section:last-child,
+		article:last-child
+		{
+			margin-bottom: 0;
+		}
 
+		.row > section,
+		.row > article
+		{
+			margin-bottom: 0;
+		}
 /*********************************************************************************/
 /* Footer                                                                        */
 /*********************************************************************************/
