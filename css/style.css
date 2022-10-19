@@ -325,6 +325,11 @@
 		position: relative;
 		background: #fff url(images/overlay.png) repeat;
 	}
+	#footer header h2
+	{
+		color: #FFF;
+	}
+	
 	
 	.divider
 	{
