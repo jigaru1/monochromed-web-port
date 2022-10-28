@@ -112,22 +112,22 @@
 		
 		.button
 		{
-			position: relative;
+			position: fixed;
 			display: inline-block;
 			margin-top: 2rem;
-			padding: 0.8rem 1.5rem;
-			background: #1d1d1d;
-			border-radius: 6px;
-			text-decoration: none;
+			padding: 0.5rem 1rem;
+			background: #5A5A5A;
+			border-radius: 5px;
+			text-decoration: overline;
 			text-transform: uppercase;
 			font-size: 1rem;
-			color: #FFF;
+			color: #FFB6C1;
+			cursor: pointer;
 			-moz-transition: color 0.35s ease-in-out, background-color 0.35s ease-in-out;
 			-webkit-transition: color 0.35s ease-in-out, background-color 0.35s ease-in-out;
 			-o-transition: color 0.35s ease-in-out, background-color 0.35s ease-in-out;
 			-ms-transition: color 0.35s ease-in-out, background-color 0.35s ease-in-out;
 			transition: color 0.35s ease-in-out, background-color 0.35s ease-in-out;
-			cursor: pointer;
 		}
 
 			.button:hover
